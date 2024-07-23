@@ -4,7 +4,7 @@
 a = int(input("enter a number: "))
 b = int(input("enter another number: "))
 
-if a == 0 and b == 0:
+if a == 0 and b == 1:
     print("Error because the numbers are zero.")
 elif a > b:
     print(f'The number {a} is greater than {b}.')
